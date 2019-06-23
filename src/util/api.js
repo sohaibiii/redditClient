@@ -1,5 +1,7 @@
 const baseUrl =
-  process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:8080/api';
+  process.env.NODE_ENV === 'production'
+    ? 'https://morning-savannah-34463.herokuapp.com/api'
+    : 'http://localhost:8080/api';
 const methods = {
   get: async function(endpoint, token = null) {
     const options = {
