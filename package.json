@@ -9,7 +9,7 @@
     "react-dom": "^16.8.3",
     "react-markdown": "^4.0.6",
     "react-redux": "^5.1.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "^2.1.5",
     "react-transition-group": "^2.5.3",
     "redux": "^4.0.1",
